@@ -285,3 +285,42 @@ body {
   padding: 12px 0;
   font-size: 1.3rem;
 }
+
+
+/* --------------------------------
+ * smart phone
+ * -------------------------------- */
+@media (max-width: 768px) {
+  body {
+    font-size: 1.3rem;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+  .button:hover {
+    opacity: 1;
+  }
+
+  /* --- header --- */
+  .header {
+    padding-top: 60px;
+  }
+  .site-title-sub {
+    font-size: 1.7rem;
+  }
+  .site-title-sub::before,
+  .site-title-sub::after {
+    display: block;
+    width: 85%;
+    margin: 10px auto;
+  }
+  .site-title {
+    margin-top: 35px;
+    font-size: 5rem;
+  }
+
+  /* --- about --- */
+  .about-text {
+    line-height: 1.8;
+  }
+}
